@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+    cursor: pointer;
+ 
+ }
+ body{
+     height: 100vh;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: linear-gradient(to right,rgb(212, 209, 155),black);
+ }
+ form{
+     width: 25rem;
+     height: 37rem;
+     display: flex;
+     flex-direction: column;
+     background: rgba(255,255,255,0.06);
+     box-shadow: 0 8px 32px 0 rgba(4, 3, 20, 0.37);
+     border-radius: 15px;
+     border-left: 1px solid rgba(218, 49, 49, 0.3);
+     border-top: 2px solid rgba(207, 61, 61, 0.3);
+ }
+ h1{
+     font-size: 40px;
+     text-align: center;
+     color: rgb(255, 255, 255);
+     text-shadow: 2px 2px 4px rgba(63, 50, 50, 0.5);
+ }
+ lable{
+     font-size: 18px;
+     margin-left: 10%;
+     text-shadow: 2px 2px 4px rgba(38, 95, 170, 0.5);
+     color: rgb(65, 18, 175);
+ }
+ input{
+     width: 80%;
+     margin: 5% auto;
+     margin-bottom: 5%;
+     border: none;
+     outline: none;
+     background: transparent;
+     color: rgb(17, 5, 44);
+     border-bottom: 2px solid rgba(66, 50, 50, 0.4);
+ }
+ button{
+     width: 50%;
+     margin: 5% auto;
+     color:rgb(5, 5, 5);
+     font-size: 25px;
+     background: rgba(192, 12, 12, 0.06);
+     padding: 7px 15px;
+     border: none;
+     outline: none;
+     border-radius: 10px;
+     box-shadow: 0 8px 32px 0 rgba(31,38,135,37);
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+     background-color: rgb(163, 157, 72);
+ }
+ #Gender{
+     width: 80%;
+     margin: 5% auto;
+     border: none;
+     outline: none;
+     background: transparent;
+     color: rgb(255, 255, 255);
+     border-bottom: 1px solid rgba(172, 79, 79, 0.4);
+     border-left: 1px solid rgba(177, 70, 70, 0.3);
+     background-color:rgb(216, 235, 172);
+ }
+ 
+ 
